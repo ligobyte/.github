@@ -1,4 +1,4 @@
-# Ligobyte
+# ligobyte
 
 **Engineering Reliable Software. Empowering Businesses.**
 
