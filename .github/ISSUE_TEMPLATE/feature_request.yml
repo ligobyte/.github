@@ -1,0 +1,50 @@
+name: Feature request
+description: A new capability, enhancement, or change in behavior
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Answering "why now" up front makes it much easier to prioritize this against everything else in flight.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What's painful today, or what capability is missing? Include "why now" — is this blocking a partner team, unblocking a user, or a nice-to-have?
+      placeholder: "iOS needs per-sport archive downloads because 1000+ per-clip pulls on first launch is too slow on cellular."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What you want to build. Sketch the API shape, UI, config, or workflow. Don't over-design — just enough for a reader to picture it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Checklist of what "done" looks like. Include tests, docs, deploy steps.
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What else did you think about? Why is the proposal above better?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Related design docs, external dependencies, coordination asks with other teams, timing constraints, etc. (Optional.)

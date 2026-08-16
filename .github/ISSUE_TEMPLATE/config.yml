@@ -1,0 +1,4 @@
+# Force choosing a template — no blank issues. Prevents the "todo: fix it"
+# ticket with no context. Add contact_links here later if there's an obvious
+# place to send people (e.g. a Slack channel, docs URL).
+blank_issues_enabled: false
